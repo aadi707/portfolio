@@ -1,0 +1,167 @@
+@media (max-width:62.5em) {
+    .container {
+        max-width: 90rem;
+        margin: 0 10rem;
+    }
+
+    * {
+        font-size: 56.25%;
+    }
+
+    .footer .container {
+        grid-template-columns: 2fr 2fr;
+        gap: 5rem;
+    }
+
+}
+
+
+@media (max-width:59.37500em) {
+
+    .services-offers-icon {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .our-project-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .services-data {
+        max-width: 30rem;
+    }
+
+    .swiper-client-msg::before {
+        top: 1rem;
+        left: 4.5rem;
+        font-size: 4rem;
+    }
+
+    .swiper-client-msg::after {
+        top: 11rem;
+        right: 4rem;
+        font-size: 4rem;
+    }
+
+}
+
+@media (max-width:50em) {
+    .swiper-client-msg::before {
+        display: none;
+    }
+
+    .swiper-client-msg::after {
+        display: none;
+    }
+}
+
+@media (max-width:43.75em) {
+    .navbar-icons {
+        display: block;
+    }
+
+    .navbar-ul {
+        flex-direction: column;
+        align-items: center;
+        margin: 15rem 0;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .navbar {
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        background-color: var(--bg);
+        transition: all 0.5s linear;
+    }
+
+    .active .navbar-icons .cross {
+        display: block;
+        z-index: 999;
+    }
+
+    .active .navbar-icons .threeline {
+        display: none;
+    }
+
+    .active .navbar {
+        left: 0;
+        transition: all 0.5s linear;
+    }
+
+    .container{
+        max-width: 50rem;
+    }
+    .hero-section {
+        height: 120vh;
+    }
+
+    .hero-section .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-container-data {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    .about-section .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-img {
+        grid-row: 2;
+    }
+    .our-project-container {
+        grid-template-columns: 1fr;
+        max-width: 30rem;
+        margin: 0 auto;
+    }
+    .four-column-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem; 
+    }
+    .increment-num{
+        height: 100px;
+    }
+
+    .services-offers-icon {
+        grid-template-columns: 1fr;
+    }
+    .freelancing-section h2,
+    .freelancing-section span{
+        font-size: 2.5rem;
+    }
+    .freelancing-section p {
+        font-size: 1.3rem;
+    }
+    .for-color{
+        height: 120%;
+    }
+
+    .contact-details .grid{
+        grid-template-columns: 1fr;
+    }
+    .first-two input{
+        width: 30rem;
+    }
+    #subject{
+        width: 30rem;
+    }
+    #textarea{
+        width: 30rem;
+    }
+    .second,
+    .third,
+    .contact-submit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
